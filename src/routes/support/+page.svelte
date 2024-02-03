@@ -8,7 +8,8 @@
 
 	<p>See FAQ below for common questions. If your question is not answered below, please direct all questions and support requests to:</p>
 
-    <p>
+	<div class="button" href="mailto:charlie@lattisapp.com"><p class="button-text">EMAIL SUPPORT</p></div>
+	<p>
         <a href="mailto:charlie@lattisapp.com">charlie@lattisapp.com</a>
 	</p>
 

@@ -7,7 +7,7 @@
 <h1>Nothing Great Was Ever Achieved Alone</h1>
 <div class="hero">
     <div class="hero-cta">
-        <p>Use the power of accountability to follow your long-term goals in the company of friends.</p>
+        <p class="hero-text">Use the power of accountability to follow your long-term goals in the company of friends.</p>
         <div class="app-store-links">
                     <a class="store-link apple-link" href="https://apps.apple.com/us/app/lattis-goal-habit-tracker/id6470149396">
                         <img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83&amp;releaseDate=1604880000" alt="Download on the App Store">
@@ -38,6 +38,10 @@
         max-width: 600px;
         border-radius: 10px;
         margin: 2em 0;
+    }
+
+    .hero-text {
+        font-weight: 700;
     }
 
     @media (min-width: 750px) {
