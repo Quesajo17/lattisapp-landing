@@ -12,7 +12,7 @@
                     <a class="store-link apple-link" href="https://apps.apple.com/us/app/lattis-goal-habit-tracker/id6470149396">
                         <img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83&amp;releaseDate=1604880000" alt="Download on the App Store">
                     </a>
-            <a class="store-link-google" href='https://play.google.com/store/apps/details?id=com.pagefamdesigns.lattis&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img alt='Get it on Google Play' src={googlebadge}/></a>
+            <a class="store-link-google" href='https://play.google.com/store/apps/details?id=com.pagefamdesigns.lattis'><img alt='Get it on Google Play' src={googlebadge}/></a>
         </div>
     </div>
     <img src={screenshots} alt="SvelteKit screenshots" />
