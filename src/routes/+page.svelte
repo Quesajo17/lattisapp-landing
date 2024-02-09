@@ -77,15 +77,24 @@
     }
 
     .app-store-links {
+        width: 100%;
         display: flex;
         align-items: center;
-        margin: 2em 0;
+        justify-content: center;
+        margin: 1em 0;
     }
 
     .store-link {
         display: flex;
         padding: 0 1em;
+    }
 
+    .apple-link {
+        width: 48%;
+    }
+
+    .store-link-google {
+        width: 52%;
     }
 
     .store-link img {
@@ -99,6 +108,20 @@
         height: 66px;
         object-fit: contain;
         padding-top: 4px;
+    }
+
+    @media (max-width: 749px) {
+        .store-link img {
+        max-width: 200px;
+        max-height: 66px;
+    }
+
+    .store-link-google img {
+        max-width: 220px;
+        max-height: 66px;
+        object-fit: contain;
+        padding-top: 4px;
+    }
     }
 
 </style>
