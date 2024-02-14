@@ -112,11 +112,13 @@
 
     @media (max-width: 749px) {
         .store-link img {
+            width: 100%;
         max-width: 200px;
         max-height: 66px;
     }
 
     .store-link-google img {
+        width: 100%;
         max-width: 220px;
         max-height: 66px;
         object-fit: contain;
