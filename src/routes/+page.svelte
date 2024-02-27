@@ -2,9 +2,10 @@
 	import './styles.css';
     import screenshots from '$lib/images/landing-page-screenshots-narrow.svg';
     import googlebadge from '$lib/images/google-play-badge.svg';
+    import websiteheader from '$lib/images/websiteheader.svg';
 </script>
 
-<h1>Nothing Great Was Ever Achieved Alone</h1>
+<img class="hero-header" src={websiteheader} alt="Lattis Goal & Habit Tracker" />
 <div class="hero">
     <div class="hero-cta">
         <p class="hero-text">Use the power of accountability to reach your goals in the company of friends.</p>
@@ -42,6 +43,11 @@
 
     .hero-text {
         font-weight: 700;
+    }
+
+    .hero-header {
+        max-width: 700px;
+        margin: 0 auto;
     }
 
     @media (min-width: 750px) {
