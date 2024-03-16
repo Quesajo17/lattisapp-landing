@@ -1,9 +1,14 @@
 <script>
-	import './styles.css';
+	import '../styles.css';
     import screenshots from '$lib/images/landing-page-screenshots-narrow.svg';
     import googlebadge from '$lib/images/google-play-badge.svg';
     import websiteheader from '$lib/images/websiteheader.svg';
 </script>
+
+<svelte:head>
+	<title>Get the App</title>
+	<meta name="description" content="Get the App" />
+</svelte:head>
 
 <img class="hero-header" src={websiteheader} alt="Lattis Goal & Habit Tracker" />
 <div class="hero">
