@@ -1,12 +1,12 @@
 <script>
-	import logo from '$lib/images/lattisicon.jpg';
+	import logo from '$lib/images/lattisicon.png';
 </script>
 
 <header>
 	<div class="brand">
 	<div class="brand-image">
 		<a href="/">
-			<img src={logo} class="appicon" alt="SvelteKit" />
+			<img src={logo} class="appicon" alt="LattisIcon" />
 		</a>
 	</div>
 		<a href="/"><p class="brand-name">Lattis</p></a>
