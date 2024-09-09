@@ -1,11 +1,13 @@
 <script>
 	import Header from './Header.svelte';
 	import Footer from './Footer.svelte';
+	import Analytics from '$lib/analytics.svelte';
 	import './styles.css';
 </script>
 
 <div class="app">
 	<Header />
+	<Analytics />
 
 	<main>
 		<slot />
